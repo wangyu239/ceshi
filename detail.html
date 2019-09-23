@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情 </title>
+    <link rel="stylesheet" href="../lib/font/iconfont.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/detail.css">
+    <link rel="stylesheet" href="../css/jquery.exzoom.css">
+</head>
+<body>
+    @_@include('header.html')
+    <div class="detail_top">
+        <ul>
+            <li><a href=""><i class="iconfont icon-che"></i>全场免运费</a></li>
+            <li><a href=""><i class="iconfont icon-yisongda"></i> 尊享当日达、次日达、次晨达</a></li>
+            <li><a href=""><i class="iconfont icon-guanfangzhuce"></i>注册会员支持货到付款</a></li>
+        </ul>
+    </div>
+    <div class="detail_back">
+        <ul>
+            <li><a href="../pages/list.html"><i class="iconfont icon-jiantouarrow594"></i>返回</a></li>
+            <li><span></span></li>
+            <li>
+                <a href="../pages/index.html">首页<b> ·</b></a>
+                <a href="">运动<b> ·</b></a>
+                <span>全部运动产品</span>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <!-- <div class="null">
+            <p>全场免普通达运费和七天无理由退货服务；成为adiCLUB会员，消费即可获得积分，铜牌以上会员即可积分兑换优惠券。<a href="../pages/list.html">马上加入</a></p>
+            <span>您还没有选购商品。如果您已是adiCLUB会员，请<a href="../pages/login.html">登录</a>查看您之前添加的商品。</span>
+            <a href="./list.html">继续购物<i class="iconfont icon-fangxiangjiantou-xiangyou"></i></a>        
+        </div> -->
+         <!-- <div class="show">
+            <div class="exzoom enlarge1" id="exzoom">
+                
+                <div class="exzoom_img_box">
+                    <ul class='exzoom_img_ul'>
+                        <li><img src="https://img.adidas.com.cn/resources/2019/6/25/15614548449677764_500X500.jpg"/></li>
+                        <li><img src="https://img.adidas.com.cn/resources/2019/6/25/15614548449677764_500X500.jpg"/></li>
+                        <li><img src="https://img.adidas.com.cn/resources/2019/6/25/15614548449677764_500X500.jpg"/></li>
+                    </ul>
+                </div>
+                
+                <div class="exzoom_nav"></div>
+                
+                <p class="exzoom_btn">
+                    <a href="javascript:void(0);" class="exzoom_prev_btn"> &lt; </a>
+                    <a href="javascript:void(0);" class="exzoom_next_btn"> &gt; </a>
+                </p>
+            </div>
+            <div class="exzoom enlarge2" id="exzoom">
+                
+                <div class="exzoom_img_box">
+                    <ul class='exzoom_img_ul'>
+                        <li><img src="https://img.adidas.com.cn/resources/2019/7/22/15637983198862300_230X230.jpg"/></li>
+                        <li><img src="https://img.adidas.com.cn/resources/2019/6/25/15614548449677764_500X500.jpg"/></li>
+                        <li><img src="https://img.adidas.com.cn/resources/2019/6/25/15614548449677764_500X500.jpg"/></li>
+                    </ul>
+                </div>
+                
+                <div class="exzoom_nav"></div>
+                
+                <p class="exzoom_btn">
+                    <a href="javascript:void(0);" class="exzoom_prev_btn"> &lt; </a>
+                    <a href="javascript:void(0);" class="exzoom_next_btn"> &gt; </a>
+                </p>
+            </div>
+            <div class="message">
+                <p>女子 训练</p>
+                <span>紧身裤</span>
+                <i>￥369</i>
+                <div class="imgbox">
+                    <img src="https://img.adidas.com.cn/resources/2019/6/25/15614548449677764_500X500.jpg" alt="">
+                    <img src="https://img.adidas.com.cn/resources/2019/6/25/15614548449677764_500X500.jpg" alt="">
+                </div>
+                <b>查看尺码对照表</b>
+                <div class="add">
+                    <div class="size">
+                        <p><span>选择尺码</span><i class="iconfont icon-jiantou1"></i></p>
+                        <ul>
+                            <li>S</li>
+                            <li>M</li>
+                            <li>L</li>
+                            <li>XL</li>
+                            <li>XXL</li>
+                        </ul>
+                    </div>
+                    <div class="count">
+                        <button type="button" class="btn btn-default">-</button>
+                        <button type="button" class="btn btn-default" disabled>1</button>
+                        <button type="button" class="btn btn-default">+</button>      
+                    </div>
+                </div>
+                <div class="button1">
+                    <a href="../pages/cart.html">立即购买<i class="iconfont icon-fangxiangjiantou-xiangyou"></i></a>
+                </div>
+                <div class="button2">
+                    <a href="">加入购物袋<i class="iconfont icon-fangxiangjiantou-xiangyou"></i></a>
+                </div>
+                <div class="other">
+                    <span><i class="iconfont icon-che"></i>该商品免运费</span>
+                    <span><i class="iconfont icon-xiaoxi"></i>在线客服</span>
+                </div>
+                <div class="last">
+                    <p>价格说明：上文显示的划线价格系该商品的建议零售价（而非法律意义上的原价），仅供您参考。</p>
+                    <div class="link">
+                        <span><i class="iconfont icon-sina"></i></span>
+                        <span><i class="iconfont icon-wechat"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="detail">
+            <ul>
+                <li class="active">商品描述</li>
+                <li>商品评价</li>
+            </ul>
+            <ol>
+                <li class="active"><img src="../static/imgs/rc.JPG" alt=""> </li>
+                <li>
+                    <p>还没有顾客评价过此商品</p>
+                    <div class="xing">
+                        <i class="iconfont icon-xingxing"></i>
+                        <i class="iconfont icon-xingxing"></i>
+                        <i class="iconfont icon-xingxing"></i>
+                        <i class="iconfont icon-xingxing"></i>
+                        <i class="iconfont icon-xingxing"></i>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </div>
+    
+    @_@include('footer.html')
+
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../lib/jquery.exzoom.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/detail.js"></script>
+    <script src="../js/footer.js"></script>
+    <script>
+        $("#exzoom").exzoom({
+            autoPlay: false,
+        });//方法调用，务必在加载完后执行
+	</script>
+</body>
+</html>

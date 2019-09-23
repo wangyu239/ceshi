@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="../lib/font/iconfont.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    @_@include('header.html')
+
+    <div class="content">
+        <div class="left">
+            <div class="back">
+               <ul>
+                   <li><a href="../pages/index.html"><i class="iconfont icon-jiantouarrow594"></i>返回</a></li>
+                   <li><span></span></li>
+                   <li>
+                       <a href="">登录</a>
+                       <span></span>
+                       <a href="">注册</a>
+                    </li>
+                   <li><a href="">/&nbsp;登录</a></li>
+               </ul>
+            </div>
+            <div class="login">
+                <ul>
+                    <li class="active">短信快捷登录/注册</li>
+                    <li>账号密码登录</li>
+                </ul>
+                <ol>
+                    <li class="active">
+                        <form action="">
+                            <input type="text" placeholder="手机号" name="phonenumber">
+                            <div class="number">
+                                <input type="text" placeholder="手机验证码" name="yanzhengma">
+                                <button type="submit">获取验证码</button>
+                            </div>
+                            <div class="check"><input type="checkbox"><span>记住手机号</span></div>
+                            <button type="submit">登录<i class="iconfont icon-fangxiangjiantou-xiangyou"></i></button>
+                        </form>
+                    </li>
+                    <li>
+                        <form action="">
+                            <input type="text" placeholder="邮箱或手机号" name="email">
+                            <input type="password" placeholder="密码" name="password">
+                            <div class="check"><input type="checkbox"><span>记住我的信息</span></div>
+                            <button type="submit">登录<i class="iconfont icon-fangxiangjiantou-xiangyou"></i></button>
+                            <span>忘记密码？</span>
+                        </form>
+                    </li>
+                </ol>
+            </div>
+            <div class="other">
+                <p>使用其他方式登录</p>
+                <ul>
+                    <li><a href=""><i class="iconfont icon-weixindenglu"></i></a></li>
+                    <li><a href=""><i class="iconfont icon-QQ"></i></a></li>
+                    <li><a href=""><i class="iconfont icon-weibo"></i></a></li>
+                </ul>
+                <span>* 已绑定微信adiCLUB会员卡的会员，可通过微信直接登录</span>
+            </div>
+
+        </div>
+        <div class="right">
+            <h3>ADICLUB会员相关权益</h3>
+            <p>成为adiCLUB会员并完善个人信息，即可享受更多权益</p>
+            <ul>
+                <li><i class="iconfont icon-duihao"></i><span>安全快捷支付订单</span></li>
+                <li><i class="iconfont icon-duihao"></i><span>随时跟踪订单状态</span></li>
+                <li><i class="iconfont icon-duihao"></i><span>及时收到打折优惠及新品发布信息</span></li>
+                <li><i class="iconfont icon-duihao"></i><span>全场免普通达运费和七天无理由退货服务</span></li>
+                <li><i class="iconfont icon-duihao"></i><span>消费即可获得积分，铜牌以上会员即可积分兑换优惠券</span></li>
+            </ul>
+        </div>
+    </div>
+
+    @_@include('footer.html')
+
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../lib/jquery-validation/jquery.validate.min.js"></script>
+    <script src="../lib/jquery-validation/localization/messages_zh.min.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/footer.js"></script>
+</body>
+</html>
